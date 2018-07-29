@@ -26,15 +26,15 @@ box-sizing: border-box;
 .back1{
 	overflow: hidden;
   position: relative;
-  background: url('../img/1.png')no-repeat center center ;
+  background: url('../img/1.jpg')no-repeat center center ;
 background-size: cover;
-height: 950px
+height: 800px
 }
 .overlay{
   position: absolute;
   width: 100%;
   background: rgba(2, 2, 2, 0.2);
-  height: 950px;
+  height: 800px;
 }
 .half1{
 left: 13.5%;
@@ -108,14 +108,14 @@ text-align: left;}
 .half2 label{font-size: 90%; color:#46c0e5; transition: .5s ease-in-out;
 	cursor: pointer;padding:2% 3%;border-right: 1px solid}
 .half2 label i{padding-right: 2px}
-.half2 label:hover{color:#E3fdf5;background-color: #46c0e5;}
+.half2 label:hover{color:#E3fdf5;}
 .half2 label:first-of-type:hover,.half2 label:nth-of-type(2){ border-right: 1px solid #46c0e5}
 .half2 a{text-decoration: none;font-size: 100%; color:#46c0e5;
 	transition: .5s ease-in-out; cursor: pointer;padding:2% 3%}
-	.half2 a:hover{color:#E3fdf5;background-color: #46c0e5;}
+	.half2 a:hover{color:#E3fdf5;}
 	.half2 a i{padding-left: 2px}
 /*End Header */
-.empty{background: #ccc;height: 1450px;position: relative;;}
+.empty{background: #ccc;height: 1600px;position: relative;;}
 .search{
 	overflow: hidden;
 	position: absolute;
@@ -164,7 +164,7 @@ text-align: left;}
 	.table td:nth-of-type(2n+1){width:80%}
 	.table label{margin-left: 10px;float: right; text-align: right;font-size: 120%;text-align: right;}
 .results h4{padding:10px 5px 2px;color:#46c0e5;font-size: 120%;text-align: right;w}
-.results img{height:380px;display: block;position: relative;margin:10px auto;float: right;}
+.results img{height:380px;width:260px;display: block;position: relative;margin:10px auto;float: right;}
 .pages{
 	top:1225px;
 	position: absolute;
